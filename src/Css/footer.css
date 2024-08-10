@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+
+}
+
+#footer_compo .container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30vh;
+}
+
+#footer_compo .footerSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_compo .links p {
+    font-family: Alexandria;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+}
+
+#footer_compo .container .footerSection+p {
+    direction: ltr;
+    margin-top: 4vh;
+    margin-left: 2%;
+    width: 100%;
+    font-family: 'Cairo';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #0A142F;
+}
+
+#footer_compo .container .icons div {
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    /* opacity: 15%; */
+    border: 2px solid rgb(10, 20, 47, 0.15);
+    margin-bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer_compo .container .icons div i {
+    color: #0A142F;
+    font-size: 150%;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+
+}
+
+#trainers_compo .container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20vh;
+}
+
+#trainers_compo h2 {
+    font-family: Abdo Rajab;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86.4px;
+    text-align: right;
+    color: #283A81;
+}
+
+
+#trainers_compo .container .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+#trainers_compo .container .grid div {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#trainers_compo .container .grid:nth-child(3){
+    width: 98%;
+    padding-left: 16%;
+}
+#trainers_compo .container .grid div img:nth-of-type(1) {
+    height: 90%;
+    width: 70%;
+}
+
+#trainers_compo .container .grid div img:nth-of-type(1) {
+    height: 90%;
+    width: 70%;
+}
+
+#trainers_compo img:nth-child(3) {
+    height: 3.5vh;
+    width: 10vw;
+}
+
+#trainers_compo .ele h3 {
+    color: #1D2338;
+    font-family: Alexandria;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+}
